@@ -1,0 +1,49 @@
+body {
+    background-color: #051225;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+h1 {
+    color: antiquewhite;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5rem;
+}
+
+.players {
+    color: azure;
+    font-size: 2rem;    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* background-color: aliceblue; */
+    border-radius: 30px;
+    margin: 50px auto; 
+    opacity: 75%;
+}
+
+.dice-images {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+
+img {
+    margin: 40px;
+}
+
+#btn-start {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center; */
+    font-size: 2rem;
+    border-radius: 15%;
+    /* justify-self: center; */
+    margin-left: 280px;
+    background-color: rgba(0, 255, 170, 0.26);
+    color: white;
+    border: none;
+    padding: 15px;
+}
